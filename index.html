@@ -21,8 +21,8 @@
   
 <body>
 
-	<?php
-$files = glob("images/*.*");
+<?php
+$files = glob("img/*.*");
 for ($i = 0; $i < count($files); $i++) {
     $image = $files[$i];
     echo basename($image) . "<br />"; // show only image name if you want to show full path then use this code // echo $image."<br />";
@@ -30,14 +30,6 @@ for ($i = 0; $i < count($files); $i++) {
 
 }
 ?>
-
-<img src="img/DSC_0273.jpg" alt="">
-<img src="img/DSC_0322.jpg" alt="">
-<img src="img/DSC_0324.jpg" alt="">
-<img src="img/DSC_0334.jpg" alt="">
-<img src="img/DSC_0363.jpg" alt="">
-<img src="img/DSC_0367.jpg" alt="">
-<img src="img/DSC_0371.jpg" alt="">
 
 <div id=footer>© 2022 JULIAN SCHAU</div>
 
