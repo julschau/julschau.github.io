@@ -23,12 +23,13 @@
 
 <?php
 $files = glob("img/*.*");
-for ($i = 0; $i < count($files); $i++) {
-    $image = $files[$i];
-    echo basename($image) . "<br />"; // show only image name if you want to show full path then use this code // echo $image."<br />";
-    echo '<img src="' . $image . '" alt="Random image" />' . "<br /><br />";
 
+for ($i=0; $i<count($files); $i++) {
+    $image = $files[$i];
+    print $image ."<br />";
+    echo '<img src="'.$image .'" alt="Random image" />'."<br /><br />";
 }
+
 ?>
 
 <div id=footer>© 2022 JULIAN SCHAU</div>
