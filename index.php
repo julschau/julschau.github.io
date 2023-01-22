@@ -31,7 +31,7 @@ foreach($images as $image)
 }
 ?>
 
-<div id=footer>© 2022 JULIAN SCHAU</div>
+<div id=footer>© 2023 JULIAN SCHAU</div>
 
 </body>
 </html>
