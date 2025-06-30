@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>julschau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="index.js" defer></script>
+</head>
+  
+<style>
+  	body {margin: 0; background: #000;}
+	h1 {margin: 50px 0 0 0; text-align: center; font-family: 'Courier New', monospace; font-size: 50px; font-weight: bold; color: blue;}
+	h2 {margin: 20px 0 0 0; text-align: center; font-family: 'Courier New', monospace; font-size: 30px; font-weight: bold; color: blue;}
+	p {margin: 0; padding: 0; text-align: center; font-family: 'Courier New', monospace; font-size: 20px; color: white;}
+	button {margin: 0; border-radius: 15px; border: none; cursor: pointer; padding: 15px 20px; font-size: 30px; background-attachment: #fff; font-size: 30px; font-weight: bold; font-family: 'Courier New', monospace;}
+  	img {border-radius: 15px; display: block; margin: 50px auto 0 auto; max-width: 80%; max-height: 720px;}
+  	#footer {margin: 50px 0; text-align: center; font-family: 'Courier New', monospace; font-size: 20px; font-weight: bold; color: blue;}
+	.hide {display: none;}
+	.buttons-section {margin: 50px 0 0 0; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;}
+	.active {color: white; background-color: blue;}
+}
+	
+</style>
+ 
+<body>
+
+<h1>Julian Schau</h1>
+<p>Some Description text.</p>
+
+<div class="buttons-section">
+	<button class="active" data-name="all">Show All</button>
+	<button data-name="phones">Phones</button>
+	<button data-name="clothes">Clothes</button>
+	<button data-name="shoes">Shoes</button>
+</div>
+
+<div class="cards-section">
+	<div data-name="phones" class="card">
+		<img src="img/Badlands_00.jpg" alt="">
+		<h2>Phones</h2>
+		<p>Some Description text.</p>
+	</div>
+	<div data-name="phones" class="card">
+		<img src="img/Badlands_05.jpg" alt="">
+		<div class="card-body">
+			<p class="card-title">Phone</p>
+			<span class="card-description">Lorem ipsum dolor sit amet.</span>
+		</div>
+	</div>
+	<div data-name="clothes" class="card">
+		<img src="img/Badlands_06.jpg" alt="">
+		<div class="card-body">
+			<p class="card-title">Cloth</p>
+			<span class="card-description">Lorem ipsum dolor sit amet.</span>
+		</div>
+	</div>
+	<div data-name="clothes" class="card">
+		<img src="img/Badlands_07.jpg" alt="">
+		<div class="card-body">
+			<p class="card-title">Cloth</p>
+			<span class="card-description">Lorem ipsum dolor sit amet.</span>
+		</div>
+	</div>
+	<div data-name="clothes" class="card">
+		<img src="img/Badlands_08.jpg" alt="">
+		<div class="card-body">
+			<p class="card-title">Cloth</p>
+			<span class="card-description">Lorem ipsum dolor sit amet.</span>
+		</div>
+	</div>
+	<div data-name="shoes" class="card">
+		<img src="img/Badlands_09.jpg" alt="">
+		<div class="card-body">
+			<p class="card-title">Shoe</p>
+			<span class="card-description">Lorem ipsum dolor sit amet.</span>
+		</div>
+	</div>
+	<div data-name="shoes" class="card">
+		<img src="img/Badlands_10.jpg" alt="">
+		<div class="card-body">
+			<p class="card-title">Shoe</p>
+			<span class="card-description">Lorem ipsum dolor sit amet.</span>
+		</div>
+	</div>
+</div>
+
+
+<div id=footer>© 2025 JULIAN SCHAU</div>
+
+</body>
+</html>
