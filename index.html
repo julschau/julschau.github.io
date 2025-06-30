@@ -2,22 +2,22 @@
 <html lang="en">
 
 <head>
-<title>julschau</title>
+<title>Julian Schau</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="index.js" defer></script>
 </head>
   
 <style>
-  	body {margin: 0; padding: 0 25px; background: #000;}
+  	body {margin: 0; padding: 0 25px; background: #111;}
 	h1 {margin: 50px 0 10px 0; text-align: center; font-family: 'Courier New', monospace; font-size: 30px; font-weight: bold; color: blue; letter-spacing: -1px;}
 	h2 {margin: 20px 0 10px 0; text-align: center; font-family: 'Courier New', monospace; font-size: 30px; font-weight: bold; color: blue; letter-spacing: -1px;}
 	p {margin: 0; padding: 0; text-align: center; font-family: 'Courier New', monospace; font-size: 20px; color: white;}
-	button {margin: 0; border-radius: 15px; border: none; cursor: pointer; padding: 10px 15px; font-size: 30px; color: black; background-color: white; background-attachment: #fff; font-size: 30px; font-weight: bold; font-family: 'Courier New', monospace; letter-spacing: -1px;}
+	button {margin: 0; border-radius: 15px; border: none; cursor: pointer; padding: 10px 15px; font-size: 30px; color: #111; background-color: white; background-attachment: #fff; font-size: 30px; font-weight: bold; font-family: 'Courier New', monospace; letter-spacing: -1px;}
   	img {border-radius: 15px; display: block; margin: 100px auto 0 auto; max-width: 100%; max-height: 504px;}
 	.imghor {width: 896px;}
 	.imgver {height: 504px;}
-  	#footer {margin: 50px 0; text-align: center; font-family: 'Courier New', monospace; font-size: 20px; font-weight: bold; color: blue;}
+  	#footer {margin: 100px 0; text-align: center; font-family: 'Courier New', monospace; font-size: 20px; font-weight: bold; color: blue;}
 	.hide {display: none;}
 	.buttons-section {margin: 50px 0 0 0; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px;}
 	.active {color: white; background-color: blue;}
@@ -28,41 +28,125 @@
 <body>
 
 <h1>Julian Schau</h1>
-<p>Motion Design in After Effects and Cinema 4D<br>Game- and Interaction Design in Unreal<br>Get in touch: julschau@gmail.com</p>
+<p>Motion Design in After Effects and Cinema 4D<br>Game and Interaction Design in Unreal<br>Get in touch: julschau@gmail.com</p>
 
 <div class="buttons-section">
 	<button class="active" data-name="all">Show All</button>
-	<button data-name="phones">Unreal</button>
-	<button data-name="clothes">Cinema 4D</button>
-	<button data-name="shoes">AR</button>
-	<button data-name="shoes">VR</button>
+	<button data-name="unreal">Unreal</button>
+	<button data-name="aec4d">AE/Cinema 4D</button>
+	<button data-name="arvr">AR/VR</button>
 </div>
 
 <div class="cards-section">
-	<div data-name="phones" class="card">
-		<img class="imghor" src="img/AR_Nerd_Absatzwirtschaft_Cut.gif" alt="">
+	<div data-name="arvr" class="card">
+		<img class="imghor" src="img/22_AR_Nerd_Absatzwirtschaft_Cut.gif" alt="">
 		<h2>AR Magazine Cover for JvM NERD</h2>
-		<p>For Absatzwirtschaft built in Meta Spark.<br>My part: 2D animation of provided layout and building the lens.</p>
+		<p>2D animation of provided layout and building the lens in Meta Spark.</p>
 	</div>
-	<div data-name="phones" class="card">
-		<img src="img/vf_omr_glass.gif" alt="">
+	<div data-name="unreal" class="card">
+		<img src="img/21_bmw03.gif" alt="">
+		<h2>BMW X Rocket League</h2>
+		<p>Animation and render in Unreal.</p>
+	</div>
+	<div data-name="aec4d" class="card">
+		<img class="imghor" src="img/20_Hyrasia.gif" alt="">
+		<h2>Hyrasia ONE</h2>
+		<p>Animation and render in Cinema 4D.</p>
+	</div>
+	<div data-name="arvr" class="card">
+		<img src="img/19_AR_JvM_TroyTorpedoDemo.gif" alt="">
+		<h2>Troy Bräu AR Lens I</h2>
+		<p>AR Lens built in Meta Spark for JvM Troy Bräu.</p>
+	</div>
+	<div data-name="aec4d" class="card">
+		<img class="imghor" src="img/18_Edeka.gif" alt="">
+		<h2>EDEKA Bio</h2>
+		<p>Animation and render in Cinema 4D.</p>
+	</div>
+	<div data-name="aec4d" class="card">
+		<img class="imghor" src="img/17_HSE.gif" alt="">
+		<h2>HSE Logo Animation</h2>
+		<p>Logo development and animation in After Effects.</p>
+	</div>
+	<div data-name="aec4d" class="card">
+		<img src="img/16_Vodafone.gif" alt="">
 		<h2>Vodafone DOOH</h2>
-		<p>My part: 3D animation of provided layout.</p>
+		<p>Animation of provided layout in Cinema 4D.</p>
 	</div>
-	<div data-name="phones" class="card">
-		<img class="imghor" src="img/Schaeffler_IAA-T_Messefilm.gif" alt="">
+	<div data-name="unreal" class="card">
+		<img class="imghor" src="img/15_SchaefflerIAA.gif" alt="">
 		<h2>Schaeffler IAA Animation</h2>
-		<p>My part: Synchronized 360° dome animation of landscapes in Unreal.</p>
+		<p>Synchronized 360° dome animation of landscapes in Unreal.</p>
 	</div>
-	<div data-name="phones" class="card">
-		<img src="img/AR_HARIBO_Rakete.gif" alt="">
+	<div data-name="arvr" class="card">
+		<img src="img/14_AR_HARIBO_Rakete.gif" alt="">
 		<h2>HARIBO Pico-Balla AR Lens</h2>
 		<p>AR Lens game built in Meta Spark for HARIBO.</p>
 	</div>
-	<div data-name="phones" class="card">
-		<img class="imghor" src="img/flags_fifaE.gif" alt="">
+	<div data-name="unreal" class="card">
+		<img src="img/13_bmw04.gif" alt="">
+		<h2>BMW X Rocket League</h2>
+		<p>Animation and render in Unreal.</p>
+	</div>
+	<div data-name="arvr" class="card">
+		<img class="imghor" src="img/12_AR_Adidas_Hoodie.gif" alt="">
+		<h2>Adidas Olympics 2022 AR Lens</h2>
+		<p>Photogrammetry, modeling and Meta Spark Lens.</p>
+	</div>
+	<div data-name="unreal" class="card">
+		<img class="imghor" src="img/11_FIFAe.gif" alt="">
 		<h2>FIFAe x Rocket League</h2>
-		<p>My part: Setup and rendering in Unreal.</p>
+		<p>Setup and render in Unreal.</p>
+	</div>
+	<div data-name="aec4d" class="card">
+		<img src="img/10_OpelTiktok.gif" alt="">
+		<h2>Opel Corsa-e Tiktok</h2>
+		<p>2D/3D animation in After Effects and Cinema 4D.</p>
+	</div>
+	<div data-name="arvr" class="card">
+		<img src="img/09_AR_JvM_NiceNiceBabyDemo.gif" alt="">
+		<h2>Troy Bräu AR Lens II</h2>
+		<p>AR Lens built in Meta Spark for JvM Troy Bräu.</p>
+	</div>
+	<div data-name="unreal" class="card">
+		<img src="img/08_hypnopolis03.gif" alt="">
+		<h2>BMW Hypnopolis Podcast S2 Cover</h2>
+		<p>Design, animation and render in Unreal.</p>
+	</div>
+	<div data-name="unreal" class="card">
+		<img src="img/07_hypnopolis02.gif" alt="">
+		<h2>BMW Hypnopolis Podcast S1 Trailer</h2>
+		<p>Design, animation and render in Unreal.</p>
+	</div>
+	<div data-name="unreal" class="card">
+		<img src="img/06_hypnopolis01.gif" alt="">
+		<h2>BMW Hypnopolis Podcast S1 Cover</h2>
+		<p>Design, animation and render in Unreal.</p>
+	</div>
+	<div data-name="aec4d" class="card">
+		<img class="imghor" src="img/05_Huawei_Sonos_Bundle.gif" alt="">
+		<h2>Huawei Sonos Bundle</h2>
+		<p>Animation and render in Cinema 4D.</p>
+	</div>
+	<div data-name="aec4d" class="card">
+		<img class="imghor" src="img/04_Huawei_Psmart_2019_60_16_10.gif" alt="">
+		<h2>Huawei Psmart 2019</h2>
+		<p>Animation and render in Cinema 4D.</p>
+	</div>
+	<div data-name="aec4d" class="card">
+		<img class="imghor" src="img/03_Huawei_Nightmode.gif" alt="">
+		<h2>Huawei Nightmode</h2>
+		<p>Animation and render in Cinema 4D.</p>
+	</div>
+	<div data-name="arvr" class="card">
+		<img class="imghor" src="img/02_vrCup.gif" alt="">
+		<h2>VR Cup 2018</h2>
+		<p>VR Game built in Unity for internal JvM events around the 2018 World Cup.</p>
+	</div>
+	<div data-name="c4d" class="card">
+		<img src="img/01_bmw01.gif" alt="">
+		<h2>BMW Vision Next 100</h2>
+		<p>Animation and render in Cinema 4D.</p>
 	</div>
 </div>
 
